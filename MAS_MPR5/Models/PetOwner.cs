@@ -9,5 +9,10 @@ namespace MAS_MPR5.Models
     public class PetOwner: Person
     {
         public virtual List<Pet> Pets { get; set; }
+
+        public override string ToString()
+        {
+            return this.Name + " " +this.Surname;
+        }
     }
 }

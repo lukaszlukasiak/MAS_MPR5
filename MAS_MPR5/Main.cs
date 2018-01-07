@@ -20,8 +20,6 @@ namespace MAS_MPR5
             form.dbContext.Cats.Load();
             form.dbContext.Dogs.Load();
             form.ShowDialog();
-
-
         }
 
     }
